@@ -19,7 +19,10 @@
     />
     <!--javascript-->
     <script src="js/index.js"></script>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal.debug = true;
+        </script>
 </head>
 <body>
     <!--?start header-->
@@ -229,5 +232,41 @@
     <!--? Start Footer -->
     <div class="footer">&copy; 2021 <span>Leon</span> All Right Reserved</div>
     <!-- !End Footer -->
+    <script>
+        ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:1000,
+        }
+        )
+
+        ScrollReveal().reveal('.feat:nth-child(1)', 
+        { origin:'left',delay:100 }
+        );
+        ScrollReveal().reveal('.feat:nth-child(2)', 
+        { origin:'left',delay:200 }
+        );
+        ScrollReveal().reveal('.feat:nth-child(3)', 
+        { origin:'left',delay:300 }
+        );
+        //services
+        ScrollReveal().reveal('.col .srv', 
+        { origin:'left',delay:300 }
+        );
+        //protofile
+        ScrollReveal().reveal('.card:nth-child(1)', 
+        { origin:'bottom',delay:200 }
+        );
+        ScrollReveal().reveal('.card:nth-child(2)', 
+        { origin:'bottom',delay:300 }
+        );
+        ScrollReveal().reveal('.card:nth-child(3)', 
+        { origin:'bottom',delay:400 }
+        );
+        //about
+        ScrollReveal().reveal('.label-about:nth-child(1)', 
+        { origin:'left',delay:200 }
+        );
+    </script>
 </body>
 </html>
