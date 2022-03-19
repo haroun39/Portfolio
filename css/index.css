@@ -40,7 +40,8 @@ body {
     font-family: "Work Sans", sans-serif;
   }
 .header{
-    padding:20px
+    padding:20px;
+    background:#010101;
 }
 .container{
     padding:0 15px;
@@ -86,6 +87,7 @@ body {
   background-color: #333;
   margin-bottom: 5px;
   height: 2px;
+  background-color:#e5405c;
 }
 .header .links .icon span:first-child {
     width: 100%;
