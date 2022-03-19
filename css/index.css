@@ -149,7 +149,7 @@ body {
     display: flex;
     justify-content: center;
     height:calc(100vh - 64px);
-    background-image: url("../images/6409.jpg");
+    background-image: url("../images/2022.webp");
     background-size: cover;
 }
 .landing .intro-text{
